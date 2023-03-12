@@ -1,12 +1,9 @@
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import React from "react";
-<<<<<<< HEAD
 import { useHistory } from 'react-router-dom';
-=======
 import { Link } from "react-router-dom";
 
->>>>>>> refs/remotes/upstream/main
 
 const IndexPage = () => {
   const history = useHistory();
@@ -20,7 +17,6 @@ const IndexPage = () => {
           process so let Feng Shui do it for you!</p>
 <br />
       <div>
-        <Link to="/list">
       <Box sx={{ flexGrow: 1 }}>
         <Button style={{ 
           width: 225, 
@@ -32,7 +28,6 @@ const IndexPage = () => {
           onClick={handleClick}
           variant="outlined"><strong>Try It</strong></Button>
         </Box>
-        </Link>
       </div>
       </>
       

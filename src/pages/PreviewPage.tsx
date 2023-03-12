@@ -1,31 +1,28 @@
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import { useHistory } from 'react-router-dom';
 import { ChangeEvent, useRef, useState } from 'react';
 
 const PreviewPage = () => {
-  const [file, setFile] = useState<File>();
-  const inputRef = useRef<HTMLInputElement | null>(null);
-
-  const handleUploadClick = () => {
-    // 👇 We redirect the click event onto the hidden input element
-    inputRef.current?.click();
-  };
-
-  const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
-    if (!e.target.files) {
-      return;
-    }
-
-    setFile(e.target.files[0]);
-
-    // 🚩 do the file upload here normally...
-  };
+  const history = useHistory();
+  const handleClick = () => history.push('/list');
     return(
         <>
         <br />
         <br />
         <br />
-<p style={{margin: "auto"}}>Preview</p>
+
+<img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/417/254/datas/original.png"/>
+<br />
+<Button style={{ 
+          width: 225, 
+          borderColor: "black", 
+          color: "black", 
+          borderRadius: 0, 
+          margin: "1em", 
+          boxShadow: "5px 10px #888888"}} 
+          onClick={handleClick}
+          variant="outlined"><strong>Shopping list</strong></Button>
           
       </>
       

@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 24px;
-  background-image: url("https://cdn-icons-png.flaticon.com/512/2220/2220045.png");
+  /* background-image: url("https://cdn-icons-png.flaticon.com/512/2220/2220045.png"); */
   background-repeat: no-repeat;
   background-position: top 600px left 0px;
 }

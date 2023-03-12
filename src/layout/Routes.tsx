@@ -12,7 +12,7 @@ const Routes = () => {
                 <Route exact key="/" path="/" component={IndexPage} />;
                 <Route exact key="/" path="/process" component={ProcessPage} />;
                 <Route exact key="/" path="/preview" component={PreviewPage} />;
-                <Route exact key="/list" path="/list" component={ListPage} />;
+                <Route exact key="/" path="/list" component={ListPage} />;
 s            </Switch>
         </main>
     )
