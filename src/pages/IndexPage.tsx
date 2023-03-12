@@ -1,6 +1,8 @@
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const IndexPage = () => {
     return(
@@ -12,6 +14,7 @@ const IndexPage = () => {
           process so let Feng Shui do it for you!</p>
 <br />
       <div>
+        <Link to="/list">
       <Box sx={{ flexGrow: 1 }}>
         <Button style={{ 
           width: 225, 
@@ -22,6 +25,7 @@ const IndexPage = () => {
           boxShadow: "5px 10px #888888"}} 
           variant="outlined"><strong>Try It</strong></Button>
         </Box>
+        </Link>
       </div>
       </>
       
