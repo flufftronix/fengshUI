@@ -6,16 +6,10 @@ const IndexPage = () => {
     return(
         <>
         <br />
-        
-<br />
-<br />
+<img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/415/682/datas/original.png" alt=""  />
 <p style={{margin: "auto"}}>Feng Shui automates Furnishing and decorating a new place to help people create living environments for themselves that give 
           them and their guests peace. Furnishing an empty living room can be an expensive and time consuming 
           process so let Feng Shui do it for you!</p>
-<br />
-<br />
-<br />
-<br />
 <br />
       <div>
       <Box sx={{ flexGrow: 1 }}>
