@@ -7,7 +7,7 @@ const Layout = (properties: any) => {
   const {children} = properties;
   return(
     <>
-    <header style={{ backgroundColor: "#383838", display: "flow-root", boxShadow: "5px 1px 5px 5px #888888" }}>
+    <header style={{ width: "100vw",backgroundColor: "#383838", display: "flow-root", boxShadow: "5px 1px 5px 5px #888888" }}>
         <span style={{
           fontSize: "34px", float: "left",
           margin: "25px 0px 0px 25px",
