@@ -3,6 +3,7 @@ import {Route, Switch} from "react-router-dom";
 import IndexPage from "../pages/IndexPage";
 import ProcessPage from "../pages/ProcessPage";
 import PreviewPage from "../pages/PreviewPage";
+import ListPage from "../pages/ListPage";
 
 const Routes = () => {
     return(
@@ -11,7 +12,8 @@ const Routes = () => {
                 <Route exact key="/" path="/" component={IndexPage} />;
                 <Route exact key="/" path="/process" component={ProcessPage} />;
                 <Route exact key="/" path="/preview" component={PreviewPage} />;
-            </Switch>
+                <Route exact key="/list" path="/list" component={ListPage} />;
+s            </Switch>
         </main>
     )
 };
